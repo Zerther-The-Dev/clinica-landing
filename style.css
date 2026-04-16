@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --nav-height: 90px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -146,6 +150,7 @@ p {
 /* SECTIONS */
 section:not(.hero) {
   padding: 20px 20px;
+  scroll-margin-top: var(--nav-height);
 }
 
 /* CONTRASTE ENTRE SEÇÕES */
