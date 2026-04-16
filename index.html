@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Vida Saudável</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <div class="logo">Vida Saudável</div>
+
+    <ul class="nav-menu">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#equipe">Equipe</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Saúde de qualidade para você e sua família</h1>
+    <p>Atendimento humanizado com profissionais especializados e tecnologia de ponta.</p>
+    <a href="#contato" class="btn-primary">Agendar Consulta</a>
+  </div>
+</section>  
+
+<section id="servicos">
+     <div class="container">
+  <h2>Nossos Serviços</h2>
+
+  <div class="servicos-container">
+
+    <div class="card">
+      <img src="img/consulta.jpg" alt="Consulta médica" class="img-servico">
+      <h3>Consultas Médicas</h3>
+      <p>Atendimento com profissionais qualificados em diversas especialidades.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/exames.jpg" alt="Exames laboratoriais" class="img-servico">
+      <h3>Exames Laboratoriais</h3>
+      <p>Realizamos exames com tecnologia de ponta e resultados rápidos.</p>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<section id="equipe">
+     <div class="container">
+  <h2>Nossa Equipe</h2>
+
+  <div class="equipe-container">
+
+    <div class="card">
+      <img src="img/dr-joao.jpg" class="img-equipe">
+      <h3>Dr. João Silva</h3>
+      <p>Médico Clínico Geral</p>
+    </div>
+
+    <div class="card">
+      <img src="img/dr-maria.jpg" class="img-equipe">
+      <h3>Dra. Maria Souza</h3>
+      <p>Especialista em Cardiologia</p>
+    </div>
+
+    <div class="card">
+      <img src="img/enfermeira.jpg" class="img-equipe">
+      <h3>Ana Lima</h3>
+      <p>Enfermeira Chefe</p>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+<section id="contato">
+     <div class="container">
+    <h2>Contato</h2>
+
+    <form class="form-container">
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="cidade">Cidade</label>
+      <input type="text" id="cidade" name="cidade">
+    </div>
+
+    <div class="form-group">
+      <label for="estado">Estado</label>
+      <input type="text" id="estado" name="estado">
+    </div>
+  </div>
+
+  <button type="submit" class="btn-primary">Enviar</button>
+</form>
+</div>
+</section>
+
+<section>
+     <div class="container">
+  <footer>
+    <p>© 2026 Clínica Vida Saudável</p>
+  </footer>
+   </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
