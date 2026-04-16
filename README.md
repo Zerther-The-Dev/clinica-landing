@@ -8,9 +8,11 @@ Landing page institucional para uma clínica médica fictícia, desenvolvida com
 
 ---
 
-## Demonstração
+## Preview
 
-https://zerther-the-dev.github.io/clinica-landing/
+![Preview](preview/clinica_index.html.png)
+
+Acesse: https://seu-link.github.io
 
 ---
 
