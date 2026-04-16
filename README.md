@@ -62,29 +62,6 @@ https://zerther-the-dev.github.io/clinica-landing/
 
 ---
 
-## Estrutura do Projeto
-
-CLINICA-LANDING/
-├── LINCENSE
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-├── img/
-│ ├── consulta.jpg
-│ ├── corpo-clinico.png
-│ ├── dr-joao.jpg
-│ ├── dr-maria.jpg
-│ ├── enfermeira.jpg
-│ ├── exames.jpg
-│ └── hero.jpg
-└── preview/
-├── clinica_index.html.png
-└── clinica_index_mobile.html.png
-
-
----
-
 ## Como Executar
 
 ### Opção 1: Abrir direto no navegador
