@@ -39,7 +39,7 @@ Caso tenha Node instalado: npx live-server
 
 ---
 
-#### 🔹 Qualquer IDE
+####  Qualquer IDE
 
 - IntelliJ / WebStorm → botão direito no HTML → "Open in Browser"
 - RubyMine → mesma abordagem
@@ -59,11 +59,6 @@ script.js
 img/
 
 ---
-
-### 2. Ajuste os caminhos (se necessário)
-
-Verifique no HTML:
-<link rel="stylesheet" href="style.css"> <script src="script.js"></script> <img src="img/hero.jpg"> ```
 
 ## Funcionalidades
 
