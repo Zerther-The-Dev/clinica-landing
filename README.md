@@ -16,6 +16,55 @@ Acesse: https://zerther-the-dev.github.io/clinica-landing
 
 ---
 
+## Como Executar o Projeto
+
+### Opção 1: Abrir diretamente no navegador
+Basta abrir o arquivo: index.html
+
+---
+
+### Opção 2: Usando servidor local (recomendado)
+
+####  VS Code (Live Server)
+
+1. Instale a extensão **Live Server**
+2. Clique com o botão direito no `index.html`
+3. Selecione **"Open with Live Server"**
+
+---
+
+####  Usando Node.js
+
+Caso tenha Node instalado: npx live-server
+
+---
+
+#### 🔹 Qualquer IDE
+
+- IntelliJ / WebStorm → botão direito no HTML → "Open in Browser"
+- RubyMine → mesma abordagem
+- Navegador direto também funciona
+
+---
+
+## Como Utilizar a Landing Page em Outro Projeto
+
+Para reutilizar essa landing em outro projeto:
+
+### 1. Copie os arquivos necessários
+
+index.html
+style.css
+script.js
+img/
+
+---
+
+### 2. Ajuste os caminhos (se necessário)
+
+Verifique no HTML:
+<link rel="stylesheet" href="style.css"> <script src="script.js"></script> <img src="img/hero.jpg"> ```
+
 ## Funcionalidades
 
 ### Navbar Fixa com Scroll Dinâmico
